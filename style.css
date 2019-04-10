@@ -1,0 +1,117 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  min-width: 810px;
+  height: 100%;
+  min-height: 600px;
+  overflow-y: auto;
+}
+
+.header {
+  height: 48px;
+}
+
+.main {
+  height: 200px;
+  position: relative;
+  top: 10%;
+}
+
+.footer {
+  height: 140px;
+  position: absolute;
+  width: 100%;
+  margin-top: -140px;
+
+  text-align: center;
+}
+
+.links {
+  float: right;
+  margin: 19px 10px 5px;
+  clear: both;
+}
+.links ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.links ul li {
+  display: inline-block;
+}
+.links ul li a {
+  color: #333;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 20px;
+}
+.links .more-prod a {
+  color: #fff;
+  background-color: #38f;
+  padding: 4px;
+  text-decoration: none;
+}
+
+/* main */
+.logo {
+  width: 270px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 100%;
+}
+.form {
+  margin: 30px auto 0;
+  width: 640px;
+}
+
+.form input {
+  float: left;
+  height: 32px;
+  width: 533px;
+  border: 1px solid #b8b8b8;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.form button {
+  float: left;
+  height: 36px;
+  width: 100px;
+  padding: 0;
+  border: 0;
+  background-color: #38f;
+  color: #fff;
+}
+
+.footer a {
+  font-size: 12px;
+  color: #999;
+  margin-left: 25px;
+}
+.footer a:first-child {
+  margin-left: 0;
+}
+.copyright {
+  font-size: 12px;
+  color: #999;
+}
+.copyright a {
+  margin-left: 5px;
+}
+
+.qr-img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/qrcode/zbios_efde696.png) 0 0 no-repeat
+}
+.baidu {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
